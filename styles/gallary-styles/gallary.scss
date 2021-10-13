@@ -1,0 +1,134 @@
+@import "../variables";
+@import "../common-styles/header";
+@import "../common-styles/footer";
+
+/*Laptop media queries starts*/
+.wrapper-section {
+  background-image: url(../../images/Gallery/banner-image.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  .bg-layer {
+    background-color: #525151c0;
+    width: 100%;
+    height: 100vh;
+  }
+}
+//hero-section
+.hero-section {
+  padding-top: 80px;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  .container {
+    width: 70%;
+    margin: 0% auto;
+    height: inherit;
+    .flex-wrapper {
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-size: 65px;
+        font-weight: bolder;
+        margin-bottom: 58px;
+        color: $primary-one;
+        span {
+          color: $complementary-color;
+        }
+      }
+      h2 {
+        margin-bottom: 105px;
+        max-width: 1500px;
+        text-align: center;
+        font-weight: 500;
+        color: $primary-one;
+      }
+      .btn {
+        padding: 34px 58px;
+        background-color: $complementary-color;
+        color: $primary-one;
+        border-radius: 7px;
+        font-weight: bolder;
+        font-size: 15px;
+      }
+    }
+  }
+}
+//gallert-section
+.gallery {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 80px 0;
+  background-color: $bg-color;
+  .container {
+    width: 89%;
+    height: auto;
+    margin: 0% auto;
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-gap: 80px;
+      img {
+        width: 617px;
+        height: 418px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+/*Laptop media queries ends*/
+
+/*Desktop Media Quries Starts*/
+@media only screen and (min-width: 1600px) {
+  .wrapper-section {
+    height: 70vh;
+  }
+  //hero section
+  .hero-section {
+    .container {
+      .flex-wrapper {
+        h1 {
+          font-size: 75px;
+        }
+        h2 {
+          font-size: 30px;
+        }
+        .btn {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  //geallery section
+  .gallery {
+    .container {
+      width: 85%;
+      .wrapper {
+        justify-content: center;
+        justify-items: center;
+        img {
+          width: 700px;
+          height: 447px;
+        }
+      }
+    }
+  }
+}
+/*Desktop Media Quries Ends*/
+
+/*Normal iphone 6 / x Starts*/
+@media (max-width: 400px) {
+}
+/*Normal iphone 6 / x ends*/
+
+/*Iphone se (Small devices) starts*/
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+}
+/*Iphone se (Small devices) ends*/

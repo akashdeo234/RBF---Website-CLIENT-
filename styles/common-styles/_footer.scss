@@ -260,3 +260,123 @@
 }
 
 /*Iphone se (Small devices) ends*/
+
+//ipad
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    height: auto;
+    padding: 40px 0;
+    .container {
+      gap: 65px 0;
+      .top {
+        flex-direction: column;
+        .nav-links {
+          padding-bottom: 30px;
+          width: 100%;
+          justify-content: center;
+          li {
+            margin: 0 21px;
+            a {
+              font-size: 24px;
+            }
+          }
+        }
+        .logo {
+          padding-bottom: 30px;
+          margin-left: 0px;
+          width: 100%;
+          justify-content: center;
+        }
+        .social-links {
+          padding-bottom: 30px;
+          width: 100%;
+          justify-content: center;
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+              margin: 0px 10px;
+            }
+          }
+        }
+      }
+      .bottom {
+        margin-left: 0px;
+        justify-content: center;
+        .wrapper {
+          .card {
+            img {
+              height: 41px;
+              margin-bottom: 33px;
+            }
+          }
+        }
+        a {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+}
+
+//ipad pro
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .footer {
+    height: auto;
+    padding: 40px 0;
+    .container {
+      gap: 0px 0;
+      .top {
+        flex-direction: column;
+        .nav-links {
+          padding-bottom: 40px;
+          width: 100%;
+          justify-content: center;
+          li {
+            margin: 0 41px;
+            a {
+              font-size: 28px;
+            }
+          }
+        }
+        .logo {
+          padding-bottom: 40px;
+          margin-left: 0px;
+          width: 100%;
+          justify-content: center;
+          a{
+            font-size: 60px;
+          }
+        }
+        .social-links {
+          padding-bottom: 30px;
+          width: 100%;
+          justify-content: center;
+          a {
+            img {
+              width: 40px;
+              height: 40px;
+              margin: 0px 10px;
+            }
+          }
+        }
+      }
+      .bottom {
+        margin-left: 0px;
+        justify-content: center;
+        padding-top: 30px;
+        .wrapper {
+          .card {
+            img {
+              height: 41px;
+              margin-bottom: 33px;
+            }
+          }
+        }
+        a {
+          font-size: 9px;
+        }
+      }
+    }
+  }
+}

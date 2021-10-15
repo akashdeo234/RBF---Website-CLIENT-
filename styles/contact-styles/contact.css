@@ -242,8 +242,18 @@ img {
 }
 
 /*Normal iphone 6 / x ends*/
-/*Iphone se (Small devices) starts*/
-/*Iphone se (Small devices) ends*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-section .container {
+    width: 95%;
+  }
+  .header-section .container .nav-links li {
+    margin: 0 21px;
+  }
+  .header-section .container .nav-links li.active {
+    padding: 70px 31px;
+  }
+}
+
 /*Resets*/
 html,
 body {
@@ -587,6 +597,134 @@ img {
 }
 
 /*Iphone se (Small devices) ends*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    height: auto;
+    padding: 40px 0;
+  }
+  .footer .container {
+    gap: 65px 0;
+  }
+  .footer .container .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .container .top .nav-links {
+    padding-bottom: 30px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .nav-links li {
+    margin: 0 21px;
+  }
+  .footer .container .top .nav-links li a {
+    font-size: 24px;
+  }
+  .footer .container .top .logo {
+    padding-bottom: 30px;
+    margin-left: 0px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .social-links {
+    padding-bottom: 30px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .social-links a img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+  }
+  .footer .container .bottom {
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .bottom .wrapper .card img {
+    height: 41px;
+    margin-bottom: 33px;
+  }
+  .footer .container .bottom a {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .footer {
+    height: auto;
+    padding: 40px 0;
+  }
+  .footer .container {
+    gap: 0px 0;
+  }
+  .footer .container .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .container .top .nav-links {
+    padding-bottom: 40px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .nav-links li {
+    margin: 0 41px;
+  }
+  .footer .container .top .nav-links li a {
+    font-size: 28px;
+  }
+  .footer .container .top .logo {
+    padding-bottom: 40px;
+    margin-left: 0px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .logo a {
+    font-size: 60px;
+  }
+  .footer .container .top .social-links {
+    padding-bottom: 30px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .container .top .social-links a img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+  }
+  .footer .container .bottom {
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 30px;
+  }
+  .footer .container .bottom .wrapper .card img {
+    height: 41px;
+    margin-bottom: 33px;
+  }
+  .footer .container .bottom a {
+    font-size: 9px;
+  }
+}
+
 /*Laptop media queries starts*/
 .wrapper-section {
   background-image: url(../../images/Gallery/banner-image.jpeg);
@@ -879,4 +1017,117 @@ img {
 }
 
 /*Iphone se (Small devices) ends*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-section {
+    height: 78vh;
+  }
+  .wrapper-section .bg-layer {
+    height: 78vh;
+  }
+  .hero-section {
+    height: 78vh;
+  }
+  .hero-section .container {
+    width: 96%;
+  }
+  .hero-section .container .flex-wrapper h2 {
+    line-height: 42px;
+    font-size: 26px;
+  }
+  .hero-section .container .flex-wrapper .btn {
+    padding: 34px 50px;
+    font-size: 22px;
+  }
+  .contact-section {
+    height: auto;
+    padding: 100px 0;
+  }
+  .contact-section .conatiner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 0;
+  }
+  .contact-section .conatiner .left {
+    width: 100%;
+  }
+  .contact-section .conatiner .left h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .contact-section .conatiner .left h2 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .contact-section .conatiner .left form input {
+    width: 100%;
+  }
+  .contact-section .conatiner .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  .wrapper-section {
+    height: 70vh;
+  }
+  .wrapper-section .bg-layer {
+    height: 70vh;
+  }
+  .hero-section {
+    padding-top: 110px;
+    height: 70vh;
+  }
+  .hero-section .container {
+    width: 85%;
+  }
+  .hero-section .container .flex-wrapper h1 {
+    font-size: 50px;
+  }
+  .hero-section .container .flex-wrapper h2 {
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .hero-section .container .flex-wrapper .btn {
+    font-size: 24px;
+  }
+  .contact-section {
+    height: auto;
+    padding: 100px 0 150px;
+  }
+  .contact-section .conatiner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px 0;
+  }
+  .contact-section .conatiner .left {
+    width: 100%;
+  }
+  .contact-section .conatiner .left h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  .contact-section .conatiner .left h2 {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .contact-section .conatiner .left form input {
+    width: 100%;
+  }
+  .contact-section .conatiner .left form .btn {
+    width: 321px;
+    height: 94px;
+    padding: 31px 54px;
+    font-size: 21px;
+  }
+  .contact-section .conatiner .right {
+    width: 100%;
+  }
+  .contact-section .conatiner .right iframe {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

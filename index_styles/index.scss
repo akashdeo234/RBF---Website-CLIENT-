@@ -686,9 +686,267 @@
 
 //ipad
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper-section {
+    height: 78vh;
+    .bg-layer {
+      height: 78vh;
+    }
+  }
+  .hero-section {
+    padding-top: 110px;
+    height: 78vh;
+    .container {
+      width: 85%;
+      .flex-wrapper {
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 29px;
+        }
+        .btn {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  //who we are section
+  .who-we-are-section {
+    height: auto;
+    padding: 80px 0;
+    .container {
+      h2 {
+        font-weight: 500;
+        max-width: 93%;
+        margin-bottom: 65px;
+        line-height: 39px;
+      }
+      .btn-wrapper {
+        a {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  //why choose us section
+  .why-choose-us {
+    height: auto;
+    padding: 80px 0;
+    .container {
+      .card-wrapper {
+        flex-direction: column;
+        gap: 30px 0;
+        width: 100%;
+        .card {
+          width: 100%;
+          height: 100%;
+          .container {
+            img {
+              width: 100px;
+              height: 100px;
+            }
+            h2 {
+              font-size: 36px;
+            }
+            p {
+              font-size: 19px;
+              font-weight: 600;
+              line-height: 35px;
+              margin-bottom: 108px;
+            }
+            a {
+              padding: 14px 35px;
+              font-size: 14px;
+              width: 132px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //galley section
+  .gallery-section {
+    height: auto;
+    padding: 80px 0;
+    .container {
+      .img-wrapper {
+        flex-direction: column;
+        width: 100%;
+        gap: 50px 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  //testimonial section
+  .testmonial-sec {
+    height: auto;
+    padding: 80px 0;
+    .container {
+      .swiper {
+        height: auto;
+        .swiper-wrapper {
+          .swiper-slide {
+            .flex-wrapper {
+              height: auto;
+              flex-direction: column;
+              padding: 0px 20px;
+              align-items: center;
+              text-align: center;
+              gap: 110px 0;
+              .right {
+                h1 {
+                  font-size: 35px;
+                }
+                h2 {
+                  font-size: 35px;
+                }
+                p {
+                  font-size: 29px;
+                  line-height: 44px;
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 //ipad pro
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
-  
+  .wrapper-section {
+    height: 70vh;
+    .bg-layer {
+      height: 70vh;
+    }
+  }
+  .hero-section {
+    padding-top: 110px;
+    height: 70vh;
+    .container {
+      width: 85%;
+      .flex-wrapper {
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 29px;
+        }
+        .btn {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  //who we are section
+  .who-we-are-section {
+    height: auto;
+    padding: 90px 0;
+    .container {
+      h2 {
+        font-weight: 500;
+        max-width: 93%;
+        margin-bottom: 65px;
+        line-height: 39px;
+      }
+      .btn-wrapper {
+        a {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+  //why choose us section
+  .why-choose-us {
+    height: auto;
+    padding: 90px 0;
+    .container {
+      .card-wrapper {
+        flex-direction: column;
+        gap: 30px 0;
+        width: 100%;
+        .card {
+          width: 100%;
+          height: 100%;
+          .container {
+            img {
+              width: 100px;
+              height: 100px;
+            }
+            h2 {
+              font-size: 36px;
+            }
+            p {
+              font-size: 19px;
+              font-weight: 600;
+              line-height: 35px;
+              margin-bottom: 108px;
+            }
+            a {
+              padding: 14px 35px;
+              font-size: 14px;
+              width: 132px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //galley section
+  .gallery-section {
+    height: auto;
+    padding: 90px 0;
+    .container {
+      .img-wrapper {
+        flex-direction: column;
+        width: 100%;
+        gap: 50px 0;
+        img {
+          width: 100%;
+        }
+      }
+      a{
+        padding: 25px 48px;
+      }
+    }
+  }
+  //testimonial section
+  .testmonial-sec {
+    height: auto;
+    padding: 90px 0;
+    .container {
+      .swiper {
+        height: auto;
+        .swiper-wrapper {
+          .swiper-slide {
+            .flex-wrapper {
+              height: auto;
+              flex-direction: column;
+              padding: 0px 20px;
+              align-items: center;
+              text-align: center;
+              gap: 110px 0;
+              .right {
+                h1 {
+                  font-size: 35px;
+                }
+                h2 {
+                  font-size: 35px;
+                }
+                p {
+                  font-size: 29px;
+                  line-height: 44px;
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

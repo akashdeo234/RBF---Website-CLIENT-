@@ -10,6 +10,8 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
 
 * {
@@ -52,6 +54,8 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
 
 * {
@@ -249,6 +253,8 @@ body {
   margin: 0%;
   padding: 0%;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  overflow-x: hidden;
 }
 
 * {
@@ -860,7 +866,119 @@ img {
 
 /*Desktop Media Quries Ends*/
 /*Normal iphone 6 / x Starts*/
+@media (max-width: 400px) {
+  .wrapper-section {
+    width: 100%;
+    height: auto;
+  }
+  .wrapper-section .bg-layer {
+    width: 100%;
+    height: auto;
+  }
+  .hero-section {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    overflow-x: hidden;
+  }
+  .hero-section .container {
+    width: 89%;
+  }
+  .hero-section .container .flex-wrapper h1 {
+    font-size: 32px;
+  }
+  .hero-section .container .flex-wrapper h2 {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 38px;
+  }
+  .hero-section .container .flex-wrapper .btn {
+    padding: 24px 22px;
+    font-size: 12px;
+  }
+  .main-section {
+    height: auto;
+  }
+  .main-section .container {
+    width: 95%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-section .container .top,
+  .main-section .container .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    text-align: start;
+  }
+  .main-section .container .top .left,
+  .main-section .container .bottom .left {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .main-section .container .top .right,
+  .main-section .container .bottom .right {
+    width: 100%;
+  }
+  .main-section .container .top .left h1,
+  .main-section .container .top .right h1,
+  .main-section .container .bottom .left h1,
+  .main-section .container .bottom .right h1 {
+    font-size: 16px;
+  }
+  .main-section .container .top .left h2,
+  .main-section .container .top .left h3,
+  .main-section .container .top .right h2,
+  .main-section .container .top .right h3,
+  .main-section .container .bottom .left h2,
+  .main-section .container .bottom .left h3,
+  .main-section .container .bottom .right h2,
+  .main-section .container .bottom .right h3 {
+    font-size: 13px;
+  }
+  .main-section .container .bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .main-section .container .bottom .left .ceo-image {
+    width: 100%;
+  }
+}
+
 /*Normal iphone 6 / x ends*/
 /*Iphone se (Small devices) starts*/
+@media only screen and (min-width: 320px) and (max-width: 370px) {
+  .main-section .container .top .left h2,
+  .main-section .container .top .left h3,
+  .main-section .container .top .right h2,
+  .main-section .container .top .right h3,
+  .main-section .container .bottom .left h2,
+  .main-section .container .bottom .left h3,
+  .main-section .container .bottom .right h2,
+  .main-section .container .bottom .right h3 {
+    font-size: 11px;
+  }
+  .main-section .container .top .left .btn {
+    padding: 20px 30px;
+    font-size: 11px;
+  }
+  .main-section .container .bottom .social-links a img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 9px;
+  }
+}
+
 /*Iphone se (Small devices) ends*/
 /*# sourceMappingURL=about.css.map */

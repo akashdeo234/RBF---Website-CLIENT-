@@ -191,7 +191,7 @@
 /*Desktop Media Quries Ends*/
 
 /*Normal iphone 6 / x Starts*/
-@media (max-width: 400px) {
+@media (max-width: 766px) {
   .wrapper-section {
     height: auto;
     .bg-layer {
@@ -269,7 +269,7 @@
 /*Normal iphone 6 / x ends*/
 
 /*Iphone se (Small devices) starts*/
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .hero-section {
     .conatiner {
       .flex-wrapper {

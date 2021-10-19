@@ -157,7 +157,7 @@
 }
 
 /*Normal iphone 6 / x Starts*/
-@media (max-width: 400px) {
+@media (max-width: 766px) {
   .footer {
     padding: 50px 0;
     height: auto;
@@ -220,7 +220,7 @@
 /*Normal iphone 6 / x ends*/
 
 /*Iphone se (Small devices) starts*/
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .footer {
     .container {
       .top {

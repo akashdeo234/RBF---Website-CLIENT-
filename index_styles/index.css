@@ -178,7 +178,75 @@ img {
 
 /*Desktop Media Quries Ends*/
 /*Normal iphone 6 / x Starts*/
-@media (max-width: 400px) {
+@media (max-width: 766px) {
+  .header-section {
+    width: 100%;
+    overflow: hidden;
+  }
+  .header-section .container {
+    width: 90%;
+    height: inherit;
+  }
+  .header-section .container .logo {
+    z-index: 3;
+  }
+  .header-section .container .logo a {
+    font-size: 30px;
+  }
+  .header-section .container .logo a span {
+    font-size: 7px;
+  }
+  .header-section .container .handBurger {
+    display: block;
+    z-index: 3;
+  }
+  .header-section .container .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #000;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+    padding: 61% 0 41%;
+  }
+  .header-section .container .nav-links li.active {
+    padding: 0%;
+    background-color: black;
+  }
+  .header-section .container .nav-links li {
+    margin: 13% 34px;
+  }
+  .header-section .container .nav-links.open {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    z-index: 2;
+  }
+}
+
+/*Normal iphone 6 / x ends*/
+/*Small phone starts*/
+@media (min-width: 320px) and (max-width: 375px) {
   .header-section {
     width: 100%;
     overflow: hidden;
@@ -241,7 +309,7 @@ img {
   }
 }
 
-/*Normal iphone 6 / x ends*/
+/*Small phone ends*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .header-section .container {
     width: 95%;
@@ -501,7 +569,7 @@ img {
 }
 
 /*Normal iphone 6 / x Starts*/
-@media (max-width: 400px) {
+@media (max-width: 766px) {
   .footer {
     padding: 50px 0;
     height: auto;
@@ -575,7 +643,7 @@ img {
 
 /*Normal iphone 6 / x ends*/
 /*Iphone se (Small devices) starts*/
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .footer .container .top .nav-links li {
     margin: 0 8px;
   }
@@ -1310,7 +1378,7 @@ img {
 
 /*Desktop Media Quries Ends*/
 /*Normal iphone 6 / x Starts*/
-@media (max-width: 400px) {
+@media (max-width: 766px) {
   .wrapper-section {
     width: 100%;
     height: auto;
@@ -1469,7 +1537,7 @@ img {
 
 /*Normal iphone 6 / x ends*/
 /*Iphone se (Small devices) starts*/
-@media only screen and (min-width: 320px) and (max-width: 370px) {
+@media (min-width: 320px) and (max-width: 375px) {
   .who-we-are-section {
     padding: 80px 0 40px;
   }

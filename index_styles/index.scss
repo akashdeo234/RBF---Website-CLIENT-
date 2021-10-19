@@ -9,19 +9,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: auto;
   .bg-layer {
     background-color: #525151c0;
     width: 100%;
-    height: 100vh;
+    height: auto;
   }
 }
 
 //hero-section
 .hero-section {
-  padding-top: 80px;
+  padding: 80px 0 60px;
+  height: auto;
   width: 100%;
-  height: 80vh;
   overflow: hidden;
   .container {
     width: 70%;
@@ -65,9 +65,9 @@
 //who we are section
 .who-we-are-section {
   width: 100%;
-  height: 85vh;
+  padding: 80px 0 60px;
+  height: auto;
   overflow: hidden;
-  padding: 50px 0;
   background-color: $bg-color;
   .container {
     width: 89%;
@@ -137,8 +137,8 @@
 //why choose us section
 .why-choose-us {
   width: 100%;
-  height: 120vh;
-  padding: 80px 0 50px;
+  height: auto;
+  padding: 80px 0 60px;
   overflow: hidden;
   .container {
     width: 89%;
@@ -169,7 +169,8 @@
       gap: 0 40px;
       .card {
         width: 50%;
-        height: 580px;
+        height: auto;
+        padding: 20px 0;
         background-color: $complementary-color;
         .container {
           padding: 80px 20px 35px 23px;
@@ -213,8 +214,8 @@
 //Gallery section
 .gallery-section {
   width: 100%;
-  height: 120vh;
-  padding: 80px 0 50px;
+  height: auto;
+  padding: 80px 0 60px;
   overflow: hidden;
   background-color: $bg-color;
   .container {
@@ -265,8 +266,8 @@
 }
 .testmonial-sec {
   width: 100%;
-  height: 120vh;
-  padding: 80px 0 50px;
+  height: auto;
+  padding: 80px 0 60px;
   overflow: hidden;
 
   .container {
@@ -355,13 +356,15 @@
 /*Laptop media queries ends*/
 
 /*Desktop Media Quries Starts*/
-@media only screen and (min-width: 1600px) {
+@media (max-width : 2560){
   .wrapper-section {
-    height: 75vh;
+    height: auto;
+    padding: 40px 60px;
   }
   //hero-section
   .hero-section {
-    padding-top: 124px;
+    height: auto;
+    padding: 124px 0 60px;
     .container {
       .flex-wrapper {
         h1 {
@@ -381,7 +384,7 @@
   //who-we-are-section
   .who-we-are-section {
     height: auto;
-    padding: 150px 0;
+    padding: 40px 60px;
     .container {
       .title {
         font-size: 50px;
@@ -406,10 +409,12 @@
   //why choose us
   .why-choose-us {
     height: auto;
-    padding: 120px 0;
+    padding: 40px 60px;
     .container {
       .card-wrapper {
         .card {
+          height: auto;
+          padding: 40px 0 80px;
           .container {
             img {
               width: 90px;
@@ -439,7 +444,7 @@
   //gallery sec
   .gallery-section {
     height: auto;
-    padding: 120px 0;
+    padding: 40px 60px;
     .container {
       a {
         padding: 18px 45px;
@@ -450,7 +455,7 @@
   //testimonail sec
   .testmonial-sec {
     height: auto;
-    padding: 120px 0 200px;
+    padding: 40px 60px;
     .container {
       .swiper {
         width: 94%;

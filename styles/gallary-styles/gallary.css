@@ -164,7 +164,7 @@ img {
 }
 
 /*Desktop Media Quries Starts*/
-@media only screen and (min-width: 1600px) {
+@media (max-width: 2560) {
   .header-section .container .logo a {
     font-size: 60px;
   }
@@ -529,7 +529,7 @@ img {
 }
 
 /*Desktop Media Quries Starts*/
-@media only screen and (min-width: 1600px) {
+@media (max-width: 2560) {
   .footer .container {
     width: 90%;
     -webkit-box-align: center;
@@ -800,19 +800,20 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .wrapper-section .bg-layer {
   background-color: #525151c0;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .hero-section {
   padding-top: 80px;
   width: 100%;
-  height: 80vh;
+  height: auto;
+  padding: 80px 0 60px;
   overflow: hidden;
 }
 
@@ -867,8 +868,8 @@ img {
 .gallery {
   width: 100%;
   height: auto;
+  padding: 80px 0 60px;
   overflow: hidden;
-  padding: 80px 0;
   background-color: #eee;
 }
 
@@ -897,9 +898,14 @@ img {
 
 /*Laptop media queries ends*/
 /*Desktop Media Quries Starts*/
-@media only screen and (min-width: 1600px) {
+@media (max-width: 2560) {
   .wrapper-section {
-    height: 70vh;
+    height: auto;
+    padding: 40px 60px;
+  }
+  .hero-section {
+    height: auto;
+    padding: 40px 60px;
   }
   .hero-section .container .flex-wrapper h1 {
     font-size: 75px;
@@ -909,6 +915,10 @@ img {
   }
   .hero-section .container .flex-wrapper .btn {
     font-size: 20px;
+  }
+  .gallery {
+    height: auto;
+    padding: 40px 60px;
   }
   .gallery .container {
     width: 85%;

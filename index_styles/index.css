@@ -1181,6 +1181,7 @@ img {
 }
 
 .testmonial-sec .container .swiper {
+  overflow: hidden;
   width: 100%;
   height: 50%;
   padding-top: 19px;
@@ -1234,6 +1235,11 @@ img {
 .testmonial-sec .container .swiper .swiper-wrapper .swiper-slide .flex-wrapper .left img {
   width: 326px;
   height: 326px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .testmonial-sec .container .swiper .swiper-wrapper .swiper-slide .flex-wrapper .right {
